@@ -35,6 +35,7 @@ public class codeRun {
 	public void atest() {
 		
 		System.out.println("TestA");
+		System.out.println("Testing is happening");
 		
 		//Assert.assertEquals("bob", "bob");
 	}
