@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Test" duration-ms="14033" started-at="2020-08-09T15:50:46Z" finished-at="2020-08-09T15:51:00Z">
+    <groups>
+    </groups>
+    <test name="signup testing" duration-ms="14033" started-at="2020-08-09T15:50:46Z" finished-at="2020-08-09T15:51:00Z">
+      <class name="scripts.codeRun">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:scripts.codeRun@2d209079]" name="beforetest" is-config="true" duration-ms="15" started-at="2020-08-09T11:50:46Z" finished-at="2020-08-09T11:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.elementCheck@6bdf28bb]" name="beforeTest" is-config="true" duration-ms="6058" started-at="2020-08-09T11:50:46Z" finished-at="2020-08-09T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:scripts.testRun@6b71769e]" name="beforetest" is-config="true" duration-ms="1" started-at="2020-08-09T11:50:52Z" finished-at="2020-08-09T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:scripts.codeRun@2d209079]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-08-09T11:50:52Z" finished-at="2020-08-09T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="ctest()[pri:0, instance:scripts.codeRun@2d209079]" name="ctest" duration-ms="1" started-at="2020-08-09T11:50:52Z" finished-at="2020-08-09T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:scripts.codeRun@2d209079]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-08-09T11:50:52Z" finished-at="2020-08-09T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:scripts.codeRun@2d209079]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-08-09T11:50:52Z" finished-at="2020-08-09T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="btest()[pri:0, instance:scripts.codeRun@2d209079]" name="btest" duration-ms="0" started-at="2020-08-09T11:50:52Z" depends-on-methods="scripts.codeRun.ctest" finished-at="2020-08-09T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:scripts.codeRun@2d209079]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-08-09T11:50:52Z" finished-at="2020-08-09T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:scripts.codeRun@2d209079]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-08-09T11:50:58Z" finished-at="2020-08-09T11:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.elementCheck@6bdf28bb]" name="afterTest" is-config="true" duration-ms="1425" started-at="2020-08-09T11:50:58Z" finished-at="2020-08-09T11:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:scripts.testRun@6b71769e]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-08-09T11:51:00Z" finished-at="2020-08-09T11:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- scripts.codeRun -->
+      <class name="scripts.testRun">
+        <test-method status="PASS" signature="validateUrl()[pri:1, instance:scripts.testRun@6b71769e]" name="validateUrl" duration-ms="0" started-at="2020-08-09T11:50:56Z" finished-at="2020-08-09T11:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method status="PASS" signature="validateTextPresnt()[pri:3, instance:scripts.testRun@6b71769e]" name="validateTextPresnt" duration-ms="0" started-at="2020-08-09T11:50:58Z" finished-at="2020-08-09T11:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTextPresnt -->
+        <test-method status="PASS" signature="validateTitle()[pri:2, instance:scripts.testRun@6b71769e]" name="validateTitle" duration-ms="0" started-at="2020-08-09T11:50:58Z" finished-at="2020-08-09T11:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- scripts.testRun -->
+      <class name="scripts.elementCheck">
+        <test-method status="PASS" signature="validateElementPresent()[pri:1, instance:scripts.elementCheck@6bdf28bb]" name="validateElementPresent" duration-ms="4300" started-at="2020-08-09T11:50:52Z" finished-at="2020-08-09T11:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateElementPresent -->
+        <test-method status="FAIL" signature="validateMessangerURL()[pri:2, instance:scripts.elementCheck@6bdf28bb]" name="validateMessangerURL" duration-ms="2189" started-at="2020-08-09T11:50:56Z" finished-at="2020-08-09T11:50:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [test] but found [michael]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [test] but found [michael]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at scripts.elementCheck.validateMessangerURL(elementCheck.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMessangerURL -->
+      </class> <!-- scripts.elementCheck -->
+    </test> <!-- signup testing -->
+  </suite> <!-- Regression Test -->
+</testng-results>

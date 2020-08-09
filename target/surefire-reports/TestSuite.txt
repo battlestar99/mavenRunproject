@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.192 sec <<< FAILURE!
+validateMessangerURL(scripts.elementCheck)  Time elapsed: 2.195 sec  <<< FAILURE!
+java.lang.AssertionError: expected [test] but found [michael]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at scripts.elementCheck.validateMessangerURL(elementCheck.java:59)
+
